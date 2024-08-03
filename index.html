@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/rules.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+
+    <!-- LINKING FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/anims.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/061d94ba71.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./scripts/index.js"></script>
+
+    <title>Homola Lukáš</title>
+    <link rel="icon" href="./Assets/title_icon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- 
+    * 
+    * NAV BAR
+    *
+    -->
+    <nav id="navbar" class="animate__animated animate__backInDown">
+      <div class="nav_info_left">
+        <a href="#first_screen_info_container"
+          ><h4><span style="color: #4368ea"> < / > </span> JUNIOR DEV</h4></a
+        >
+      </div>
+      <div class="nav_divider"></div>
+      <div class="nav_btns_container">
+        <section>
+          <a href="#first_screen_info_container"><strong>HOME</strong></a>
+          <a href="#my_work_container">MY WORK</a>
+          <a href="#my_skills_container">MY SKILLS</a>
+        </section>
+        <button>
+          <a href="#section_hire_me"><strong>CONTACT ME</strong></a>
+        </button>
+      </div>
+    </nav>
+    <!-- 
+    *
+    *
+    * !! NAVBAR MOBILE !!!
+    *
+    * -->
+    <!-- DISPLAYING HAM MENU -->
+    <nav class="nav_ham_menu">
+      <i class="fa-solid fa-bars"></i>
+    </nav>
+    <!-- 
+    * 
+    *
+    *
+    * /// NAV BAR
+    *
+    *
+    *
+    -->
+
+    <!-- 
+    *
+    *
+    *
+    * MAIN SECTION
+    *
+    *
+    *
+    -->
+    <main>
+      <div class="first_screen_container">
+        <!-- 
+    *
+    *
+    *
+    * MAIN SECTION
+    /// FIRST SCREEN
+    *
+    *
+    *
+    -->
+        <div
+          class="first_screen_info_container hidden-left"
+          id="first_screen_info_container"
+        >
+          <section class="first_screen_info_inner_container">
+            <section>
+              <h1>LUKÁŠ HOMOLA</h1>
+              <h2>JUNIOR REACT DEVELOPER</h2>
+            </section>
+
+            <section>
+              <br />
+              <hr class="divider_20" />
+              <br />
+            </section>
+
+            <ul class="first_screen_info_list">
+              <li><span style="color: red">></span> HTML, CSS, JAVASCRIPT</li>
+              <li><span style="color: red">></span> REACT</li>
+              <li><span style="color: red">></span> NODE.JS</li>
+            </ul>
+
+            <span>
+              <a href="#my_skills_container"
+                ><i
+                  class="fa-solid fa-circle-chevron-down first_screen_info_arrow_jump"
+                ></i
+              ></a>
+            </span>
+          </section>
+
+          <img
+            src="/Assets/portrait.png"
+            alt=""
+            class="first_screen_info_portrait"
+          />
+        </div>
+
+        <div class="first_screen_right_section hidden-right">
+          <div class="first_screen_quick_info_section">
+            <section class="first_screen_quick_info_section_card">
+              <h3>ABOUT ME</h3>
+              <p class="desktop_only">
+                Hello, I'm Lukáš, 20 years old guy from Czechia. I love
+                <strong
+                  >tech, HTML, CSS, JS, React, Node and video games in free
+                  time.</strong
+                >
+              </p>
+              <p class="mobile_only">
+                <br />
+                Hey there, I'm Lukáš, a 20-years old from the Czech Republic
+                with a passion for
+                <strong>tech, programming and this kind of things</strong>.
+                <br /><br />
+                I fell in love with technology while I was in elementary school.
+                As a kid, I spent hours playing games and learning about hosting
+                and development, which led to my passion for it.
+                <br /><br />
+                Nowadays, I'm primarily focused on
+                <strong>JavaScript</strong> development, using
+                <span>React Native</span> and <strong>Node.js</strong> to build
+                applications. I love learning new things, especially if they're
+                related to programming or interesting tech. I'm always looking
+                to level up my skills and knowledge since this is what I'm
+                passionate about and where I want to excel.
+              </p>
+
+              <br />
+              <div
+                class="button first_screen_quick_info_section_card_btn desktop_only"
+              >
+                <a href="./html/about.html"
+                  >DISCOVER MORE
+                  <span style="padding-left: 0.5rem"
+                    ><i class="fa-solid fa-arrow-right-long"></i></span
+                ></a>
+              </div>
+            </section>
+
+            <hr class="first_screen_quick_info_divider" />
+
+            <section class="first_screen_quick_info_section_card">
+              <h3>MY PROJECTS</h3>
+              <br />
+              <p>
+                Over the years, I've built several projects, ranging from
+                <strong>school-based assignments</strong> to personal learning
+                projects and <strong>real-world applications</strong>.
+              </p>
+              <p class="mobile_only">
+                I've built the majority of my projects using
+                <strong>HTML, CSS, and JavaScript</strong>, as well as
+                <strong>React Native with Node.js</strong> for the backend.
+                <br />
+                <br />
+                Currently, this portfolio is built using the common stack of
+                HTML, CSS, and vanilla JavaScript. Additionally, I have some
+                <strong>experience</strong> in
+                <strong>computer networking</strong> from my high school
+                education and work in
+                <strong
+                  >networking support, service desk, and as a remote
+                  engineer</strong
+                >.
+                <br />
+                <span style="font-style: italic; color: #da4f4f"
+                  >Use button below to explore my projects.</span
+                >
+              </p>
+              <br />
+              <div class="button first_screen_quick_info_section_card_btn">
+                <a href="#my_work_container"
+                  >EXPLORE MORE
+                  <span style="padding-left: 0.5rem"
+                    ><i class="fa-solid fa-arrow-right-long"></i></span
+                ></a>
+              </div>
+            </section>
+          </div>
+          <section class="first_screen_quick_info_section_socials">
+            <h3>MY SOCIALS</h3>
+            <br />
+            <section>
+              <a
+                href="https://www.facebook.com/people/Luk%C3%A1%C5%A1-Homola/pfbid0KeUQNfdoaULViDqujw2MQThLAqaCDu1kvojAonmRhbR4k5XWYYg8kKgmMsTGS4bJl/"
+                ><i class="fa-brands fa-facebook fa-lg fa-lg"></i
+              ></a>
+              <a href="https://www.instagram.com/lukehomola/"
+                ><i class="fa-brands fa-instagram fa-lg"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            </section>
+          </section>
+        </div>
+      </div>
+
+      <!-- 
+    *
+    *
+    *
+    * MY SKILLS SECTION
+    *
+    *
+    *
+    -->
+      <div class="my_skills_container hidden-left" id="my_skills_container">
+        <!--  <section class="my_skills_container_divider_small"></section> -->
+        <div class="my_skills_container_left">
+          <hr class="my_skills_container_divider_top desktop_only" />
+          <br />
+          <h2>MY SKILLS</h2>
+          <p>
+            This is section is about summary fo my <strong>skills</strong> and
+            <strong>knowledge</strong>.
+          </p>
+
+          <br />
+
+          <section class="my_skills_container_left_btns desktop_only">
+            <button class="my_skills_container_left_btn">
+              <a href="#my_work_container"
+                >MY PROJECTS
+                <span style="padding-left: 0.5rem"
+                  ><i class="fa-solid fa-arrow-right-long"></i></span
+              ></a>
+            </button>
+            <button class="my_skills_container_left_btn">
+              <a href="#my_experiences_container"
+                >MY EXPERIENCES
+                <span style="padding-left: 0.5rem"
+                  ><i class="fa-solid fa-arrow-right-long"></i></span
+              ></a>
+            </button>
+          </section>
+        </div>
+        <!-- <section class="my_skills_container_divider">.</section> -->
+        <div class="my_skills_container_right">
+          <div class="my_skills_container_right_inner_card">
+            <h3>HTML</h3>
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="my_skills_container_right_inner_card">
+            <h3>CSS</h3>
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div class="my_skills_container_right_inner_card">
+            <h3>JS</h3>
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+          <div class="my_skills_container_right_inner_card">
+            <h3>REACT</h3>
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <div class="my_skills_container_right_inner_card">
+            <h3>MySQL</h3>
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="my_skills_container_right_inner_card">
+            <h3>NETWORK</h3>
+            <i class="fa-solid fa-server"></i>
+          </div>
+        </div>
+        <!-- <section class="my_skills_container_divider_small"></section> -->
+      </div>
+
+      <!-- 
+    *
+    *
+    *
+    * EXPERIENCES SECTION
+    /// EXPERIENCES SCREEN
+    *
+    *
+    *
+    -->
+
+      <div
+        class="my_experiences_container hidden-fadeIn"
+        id="my_experiences_container"
+      >
+        <section class="my_experiences_container_header_container">
+          <section>
+            <h2>MY WORK EXPERIENCES</h2>
+            <p><span style="color: red">></span> School and work related</p>
+            <br />
+
+            <br />
+          </section>
+
+          <a
+            class="my_experiences_container_header_container_download_cv desktop_only"
+            href="./Assets/Homola_CZ.pdf"
+            download
+          >
+            DOWNLOAD MY CV</a
+          >
+        </section>
+        <hr class="my_experiences_container_hr desktop_only" />
+
+        <div class="my_experiences_container_cards">
+          <div class="my_experiences_card">
+            <section class="my_experiences_card_number baloo-bhai-2-semiBold">
+              <span>01</span>
+            </section>
+
+            <hr class="my_experiences_card_connect_divider desktop_only" />
+
+            <section class="my_experiences_card_inner">
+              <section class="my_experiences_card_text">
+                <h3>HIGH SCHOOL</h3>
+                <hr class="desktop_only" />
+                <h4>PROGRAMMING, NETWORKING, ELECTRO</h4>
+                <ul>
+                  <li>FROM <strong>10.2019</strong></li>
+                  <li>TO <strong>06.2023</strong></li>
+                </ul>
+                <span class="my_experiences_card_text_right_action"
+                  ><a
+                    class="poppins-medium"
+                    href="https://www.ssee-sokolnice.cz/"
+                  >
+                    SŠEE Sokolnice webpage
+                  </a></span
+                >
+              </section>
+            </section>
+          </div>
+
+          <div class="my_experiences_card my_experiences_card_2">
+            <section class="my_experiences_card_inner">
+              <section class="my_experiences_card_text">
+                <h3>ANOVIS. S.R.O</h3>
+                <hr class="desktop_only" />
+                <h4>NETWORK SUPPORT & REMOTE TECHNICIAN</h4>
+                <ul>
+                  <li>FROM <strong>06.2023</strong></li>
+                  <li>TO <strong>NOW</strong></li>
+                </ul>
+                <span class="my_experiences_card_text_right_action"
+                  ><a class="poppins-medium" href="https://anovis.com/cs/">
+                    Anovis s.r.o webpage
+                  </a></span
+                >
+              </section>
+            </section>
+            <hr class="my_experiences_card_connect_divider desktop_only" />
+            <section class="my_experiences_card_number baloo-bhai-2-semiBold">
+              <span>02</span>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- 
+    *
+    *
+    *
+    /// MY WORK AND PROJECTS
+    *
+    *
+    *
+    -->
+      <div class="my_work_container hidden-right" id="my_work_container">
+        <section class="my_work_container_header">
+          <h2>BROWSE MY WORK</h2>
+          <p>
+            <span style="color: red">></span> This is sample of some of my
+            projects
+          </p>
+          <br />
+        </section>
+
+        <!-- PREVIEW SLIDER -->
+        <div class="preview-slider splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide slide_preview">
+                <h4>Web Portfolio</h4>
+                <p>01</p>
+              </li>
+              <li class="splide__slide slide_preview">
+                <h4>HOMOLA - ticket system</h4>
+                <p>02</p>
+              </li>
+              <!--             <li class="splide__slide slide_preview">
+                <h4>HOMOLA - webpage</h4>
+                <p>03</p>
+              </li> -->
+              <!-- Add more slides as needed -->
+            </ul>
+          </div>
+        </div>
+
+        <br />
+        <br />
+
+        <!-- MAIN SLIDER -->
+        <div class="full-width-slider splide">
+          <div class="splide__track">
+            <div class="splide__list">
+              <li class="splide__slide slider_full_container">
+                <div class="slider_full_container_left">
+                  <section>
+                    <h2>Web Portfolio</h2>
+                    <p>
+                      <span style="color: red">></span> This is my
+                      <strong>webportfolio</strong>.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Presentention of my
+                      <strong>skils, knowledge interests and more</strong>.
+                    </p>
+                    <p>
+                      <span style="color: red">></span>
+                      <strong>Unique design </strong> created by myself.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Project built with
+                      vannila languages <strong>(HTML, CSS, JS)</strong>.
+                    </p>
+                  </section>
+                  <section class="slide_full_tags_container">
+                    <div class="slide_full_tag">HTML</div>
+                    <div class="slide_full_tag">CSS</div>
+                    <div class="slide_full_tag">JAVASCRIPT</div>
+                    <div class="slide_full_tag">FONT AWESOME</div>
+                    <div class="slide_full_tag">SPLIDE.JS</div>
+                    <div class="slide_full_tag FRONTEND">FRONTEND</div>
+                  </section>
+                  <div class="hire_me_container desktop_only">
+                    <a href="#section_hire_me"> CONTACT ME</a>
+                  </div>
+                </div>
+                <div class="slider_full_container_right">
+                  <section class="slide_full_img_section">
+                    <img
+                      class="slide_full_img splide__scale"
+                      src="./Assets/splide_assets/splide_preview_portfolio.png"
+                      alt=""
+                    />
+                  </section>
+                </div>
+              </li>
+              <li class="splide__slide slider_full_container">
+                <div class="slider_full_container_left">
+                  <section>
+                    <h2>HOMOLA - ticket system</h2>
+                    <p>
+                      <span style="color: red">></span> Ticket system for our
+                      family company.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Simple ticket system.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Databases and Node.js
+                    </p>
+                    <p><span style="color: red">></span> Admin Menu</p>
+                    <p><span style="color: red">></span> Data export to csv</p>
+                  </section>
+                  <section class="slide_full_tags_container">
+                    <div class="slide_full_tag">HTML</div>
+                    <div class="slide_full_tag">CSS</div>
+                    <div class="slide_full_tag">JAVASCRIPT</div>
+                    <div class="slide_full_tag">REACT NATIVE</div>
+                    <div class="slide_full_tag">MySQL</div>
+                    <div class="slide_full_tag">FONT AWESOME</div>
+                    <div class="slide_full_tag">SPLIDE.JS</div>
+                    <div class="slide_full_tag FRONTEND">FRONTEND</div>
+                    <div class="slide_full_tag BACKEND">BACKEND</div>
+                  </section>
+                  <div class="hire_me_container desktop_only">
+                    <a href="#section_hire_me"> CONTACT ME</a>
+                  </div>
+                </div>
+                <div class="slider_full_container_right">
+                  <div class="innerSliderTicketSystem-slider splide">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_1.png"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_2.png"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_3.png"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_4.png"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_5.png"
+                            alt=""
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <!--  -->
+                </div>
+              </li>
+              <!--    <li class="splide__slide"></li> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_hire_me" id="section_hire_me">
+        <section><h3>Contact me</h3></section>
+        <br />
+        <section class="section_hire_me_container">
+          <span
+            ><h5>Contact me via email</h5>
+            <br />
+            <a href="mailto:lukas-homola@seznam.cz"
+              ><i class="fa-regular fa-envelope"></i> lukas-homola@seznam.cz</a
+            ></span
+          >
+          <br />
+          <span
+            ><h5>Reach me on phone</h5>
+            <br />
+            <a href="#"
+              ><i class="fa-solid fa-phone"></i> +420 770 175 79</a
+            ></span
+          >
+          <br />
+          <span>
+            <h5>Download my CV</h5>
+            <br />
+            <a
+              class="my_experiences_container_header_container_download_cv"
+              href="./Assets/Homola_CZ.pdf"
+              download
+            >
+              DOWNLOAD MY CV</a
+            >
+          </span>
+        </section>
+      </div>
+    </main>
+    <!-- 
+    *
+    *
+    *
+    * 
+    /// 
+    *
+    *
+    *
+    -->
+
+    <!--  -->
+    <footer class="hidden-fadeIn">
+      <section class="footer_map_btns">
+        <h3>WEB MAP</h3>
+        <a href="#first_screen_info_container"
+          ><span style="color: red">>></span> <strong>HOME PAGE</strong></a
+        >
+        <a href="#my_skills_container"
+          ><span style="color: red">>></span> MY SKILLS</a
+        >
+        <a href="#my_experiences_container"
+          ><span style="color: red">>></span> MY EXPERIENCES</a
+        >
+        <a href="#my_work_container"
+          ><span style="color: red">>></span> MY PROJECTS</a
+        >
+      </section>
+      <section class="footer_contact_section">
+        <h3>CONTACT ME</h3>
+        <p><span style="color: red">></span> +420 770 175 790</p>
+        <p><span style="color: red">></span> lukas-homola@seznam.cz</p>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-homola-471a53278/"
+          ><span style="color: red">></span> Explore my
+          <span style="font-weight: 500"> Linkedin</span></a
+        >
+      </section>
+      <section class="footer_personal_contact">
+        <h3>PERSONAL CONTACTS</h3>
+        <p style="font-style: italic">
+          <span style="color: red">>></span> My personal social medias.
+        </p>
+        <br />
+        <section>
+          <a
+            href="https://www.instagram.com/lukehomola/"
+            target="_blank"
+            class="footer_personal_icon"
+            ><i class="fa-brands fa-instagram fa-lg"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100005657263046"
+            target="_blank"
+            class="footer_personal_icon"
+            ><i class="fa-brands fa-facebook fa-lg"></i>
+          </a>
+        </section>
+      </section>
+    </footer>
+  </body>
+
+  <!-- STICKY NAVBAR -->
+  <!--   <script>
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.getBoundingClientRect().top + window.pageYOffset;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script> -->
+</html>

@@ -1,0 +1,136 @@
+body {
+  background-color: var(--primary);
+}
+body,
+main {
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1025px) {
+  main {
+    padding-bottom: 5rem;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+  }
+  nav {
+    width: 100%;
+    padding: 20px 0;
+    background: transparent;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+  }
+  nav > div {
+    min-width: fit-content;
+  }
+
+  .nav_divider {
+    width: 50%;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(31, 31, 34, 0.5);
+    z-index: 1000;
+  }
+  .nav_btns_container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .nav_btns_container section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .aboutMe {
+    display: flex;
+    align-items: flex-start;
+    min-height: fit-content;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+
+  .aboutMe div > section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    border-left: 5px solid var(--accent);
+    max-width: 90%;
+  }
+
+  .first_screen_quick_info_section_card_btn {
+    background-color: var(--action-500);
+    border-bottom: 5px solid var(--action);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    max-width: fit-content;
+  }
+
+  /*
+*
+*  FOOTER SECTION
+* 
+*/
+
+  footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5rem;
+    padding: 2rem;
+    bottom: 0;
+  }
+  /* VERTICAL LINES */
+  footer > section {
+    border-left: 8px solid var(--action);
+    padding-left: 1rem;
+    border-radius: 5px 0px 0 5px;
+  }
+  /* FOOTER WEB MAP */
+  .footer_map_btns {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 0px 0 5px;
+  }
+  /* FOOTER PERSONAL ICONS */
+  .footer_personal_contact section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer_personal_icon {
+    color: var(--action);
+    font-size: 2rem;
+  }
+  .footer_personal_icon i:hover {
+    color: var(--accent);
+    transform: scale(1.1) !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav_ham_menu {
+    position: fixed;
+    right: 0;
+    font-size: var(--fs-600);
+    color: var(--action);
+    padding-right: 1rem;
+    padding-top: 1rem;
+    z-index: 999;
+  }
+  /* NAV SETTINGS TO ENSURE DISPLAYING ONLY HAM MENU */
+  nav:nth-child(1) {
+    display: none;
+  }
+}
