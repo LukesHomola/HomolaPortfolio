@@ -1,5 +1,5 @@
 ***************************************
-              HELLO
+HELLO
 ***************************************
 
 Welcome to my web portfolio repository.
