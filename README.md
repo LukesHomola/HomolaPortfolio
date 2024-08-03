@@ -1,5 +1,5 @@
 ***************************************
-HELLO
+HTML, CSS, JavaScript
 ***************************************
 
 Welcome to my web portfolio repository.
