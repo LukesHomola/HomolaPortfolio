@@ -86,7 +86,7 @@ a {
 }
 @media (min-width: 1201) and (max-width: 1360px) {
   :root {
-    --fs-xxl: 5rem;
+    --fs-xxl: 8rem;
     --fs-xl: 3.2rem;
     --fs-600: 2.5rem;
     --fs-500: 2.2rem;
@@ -96,7 +96,7 @@ a {
 }
 @media (min-width: 1000) and (max-width: 1200px) {
   :root {
-    --fs-xxl: 4rem;
+    --fs-xxl: 7rem;
     --fs-xl: 3rem;
     --fs-600: 2.4rem;
     --fs-500: 2.1rem;
@@ -106,7 +106,7 @@ a {
 }
 @media (max-width: 999px) {
   :root {
-    --fs-xxl: 4rem;
+    --fs-xxl: 6rem;
     --fs-xl: 2.8rem;
     --fs-600: 2.2rem;
     --fs-500: 2rem;
@@ -116,7 +116,7 @@ a {
 }
 @media (max-width: 650px) {
   :root {
-    --fs-xxl: 4rem;
+    --fs-xxl: 5rem;
     --fs-xl: 2.7rem;
     --fs-600: 2.1rem;
     --fs-500: 1.9rem;

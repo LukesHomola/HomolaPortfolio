@@ -35,6 +35,7 @@
     ></script>
     <script type="module" src="./scripts/index.js"></script>
 
+    <script src="./scripts/mobile_nav.js"></script>
     <title>Homola Lukáš</title>
     <link rel="icon" href="./Assets/title_icon.svg" type="image/x-icon" />
   </head>
@@ -70,8 +71,28 @@
     * -->
     <!-- DISPLAYING HAM MENU -->
     <nav class="nav_ham_menu">
-      <i class="fa-solid fa-bars"></i>
+      <section>
+        <a href="#" onclick="mobileNavIsActive(event)">
+          <i class="fa-solid fa-house navMobile_btn active_btn"></i>
+        </a>
+      </section>
+      <section>
+        <a href="#my_work_container" onclick="mobileNavIsActive(event)">
+          <i class="fa-solid fa-circle-check navMobile_btn"></i>
+        </a>
+      </section>
+      <section>
+        <a href="#my_experiences_container" onclick="mobileNavIsActive(event)">
+          <i class="fa-solid fa-book navMobile_btn"></i>
+        </a>
+      </section>
+      <section>
+        <a href="#section_hire_me" onclick="mobileNavIsActive(event)">
+          <i class="fa-solid fa-envelope navMobile_btn"></i>
+        </a>
+      </section>
     </nav>
+
     <!-- 
     * 
     *
@@ -234,8 +255,13 @@
               <a href="https://www.instagram.com/lukehomola/"
                 ><i class="fa-brands fa-instagram fa-lg"></i
               ></a>
-              <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+              <a href="https://github.com/LukesHomola"
+                ><i class="fa-brands fa-github fa-lg"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/luk%C3%A1%C5%A1-homola-471a53278/"
+                ><i class="fa-brands fa-linkedin fa-lg"></i
+              ></a>
             </section>
           </section>
         </div>
@@ -429,10 +455,10 @@
                 <h4>HOMOLA - ticket system</h4>
                 <p>02</p>
               </li>
-              <!--             <li class="splide__slide slide_preview">
+              <li class="splide__slide slide_preview">
                 <h4>HOMOLA - webpage</h4>
                 <p>03</p>
-              </li> -->
+              </li>
               <!-- Add more slides as needed -->
             </ul>
           </div>
@@ -474,8 +500,15 @@
                     <div class="slide_full_tag">SPLIDE.JS</div>
                     <div class="slide_full_tag FRONTEND">FRONTEND</div>
                   </section>
-                  <div class="hire_me_container desktop_only">
-                    <a href="#section_hire_me"> CONTACT ME</a>
+                  <div class="slider_full_btns">
+                    <div class="hire_me_container desktop_only">
+                      <a href="#section_hire_me"> CONTACT ME</a>
+                    </div>
+                    <a
+                      href="https://github.com/LukesHomola/HomolaPortfolio"
+                      style="color: var(--action); font-weight: 500"
+                      >GitHub</a
+                    >
                   </div>
                 </div>
                 <div class="slider_full_container_right">
@@ -516,8 +549,13 @@
                     <div class="slide_full_tag FRONTEND">FRONTEND</div>
                     <div class="slide_full_tag BACKEND">BACKEND</div>
                   </section>
-                  <div class="hire_me_container desktop_only">
-                    <a href="#section_hire_me"> CONTACT ME</a>
+                  <div class="slider_full_btns">
+                    <div class="hire_me_container desktop_only">
+                      <a href="#section_hire_me"> CONTACT ME</a>
+                    </div>
+                    <p style="color: rgb(68, 66, 66); font-weight: 500">
+                      GitHub
+                    </p>
                   </div>
                 </div>
                 <div class="slider_full_container_right">

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     snap: true,
     perPage: 3,
     perMove: 1,
-    autoplay: false,
+    autoplay: true,
     interval: 5000,
     speed: 600,
     arrows: false,
@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
 /* SLIDE FROM LEFT */
 const observerLeft = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated");
       entry.target.classList.add("animate__fadeInLeft");
@@ -73,7 +72,6 @@ hiddenLeftElements.forEach((el) => {
 /* SLIDE FROM RIGHT */
 const observerRight = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated");
       entry.target.classList.add("animate__fadeInRight");
@@ -92,7 +90,6 @@ hiddenRightElements.forEach((el) => {
 /* FADE IN */
 const observerFadeIn = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated");
       entry.target.classList.add("animate__fadeIn");

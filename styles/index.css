@@ -33,6 +33,12 @@ body {
   }
 }
 
+.slider_full_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 1025px) {
   nav {
     position: fixed;
@@ -239,6 +245,7 @@ body {
     color: #5d7ef3;
     font-size: var(--fs-xxl);
     min-width: 10%;
+    transition: 0.3s ease, padding 0.3s ease;
   }
 
   .my_skills_container_right_inner_card h3 {
@@ -377,6 +384,9 @@ body {
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .my_experiences_card_inner:hover {
+    transform: scale(1.1);
   }
   .my_experiences_card_number {
     display: flex;
@@ -671,7 +681,7 @@ body {
     display: none;
   }
 
-  .nav_ham_menu {
+  /*   .nav_ham_menu {
     position: fixed;
     right: 0;
     font-size: var(--fs-600);
@@ -679,7 +689,40 @@ body {
     padding-right: 1rem;
     padding-top: 1rem;
     z-index: 999;
+  } */
+
+  .nav_ham_menu {
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-500);
   }
+  .nav_ham_menu * {
+    font-size: var(--fs-600);
+    color: var(--text-500);
+    filter: drop-shadow(1px 1px 4px var(--secondary-300));
+  }
+  .active_btn {
+    color: var(--text);
+    padding: 0.8rem;
+    border-radius: 100%;
+    background-color: var(--accent);
+    filter: drop-shadow(2px 2px 4px var(--secondary-500));
+  }
+  .nav_ham_menu section a p {
+    font-size: var(--fs-400);
+  }
+
+  /*  */
+  /*  */
+  /*  */
 
   /* FIRST CONTENT CONTIANER */
   .first_screen_info_container {
@@ -696,7 +739,7 @@ body {
   .first_screen_info_arrow_jump {
     margin-top: 5rem;
     margin-left: 2rem;
-    font-size: 10rem;
+    font-size: var(--fs-xxl);
     color: var(--action);
   }
 
@@ -994,15 +1037,15 @@ body {
   /* VISUAL FIXES - FIRST SECTION */
   .first_screen_info_arrow_jump {
     margin-top: 1rem;
-    font-size: var(--fs-giant);
+    /*     font-size: var(--fs-giant); */
   }
   .first_screen_info_portrait {
-    height: auto;
-    width: auto;
+    max-height: 50%;
     max-width: 40%;
-    max-height: 90vh;
-    margin-top: 2rem;
-    margin-left: 8rem;
+    margin-top: auto;
+    margin-right: 1rem;
+    border-radius: 100%;
+    background-color: var(--secondary-500);
   }
   /* SLIDER FIXES */
   .slide_full {
