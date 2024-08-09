@@ -735,6 +735,9 @@ body {
   .first_screen_info_inner_container {
     position: absolute;
   }
+  .first_screen_info_inner_container section h2 {
+    font-size: var(--fs-500);
+  }
   /* JUMP ARROW */
   .first_screen_info_arrow_jump {
     margin-top: 5rem;
