@@ -49,33 +49,28 @@ main {
     gap: 1rem;
   }
 
+  /*  */
+
   .aboutMe {
     display: flex;
-    align-items: flex-start;
-    min-height: fit-content;
-    flex-direction: column;
-    margin-top: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+  }
+  .aboutMe section {
+    min-height: 40rem;
+    max-width: 45%;
     padding-left: 1rem;
-    margin-left: 1rem;
+    border-radius: 5px 0px 0 5px;
+    border-left: 8px solid var(--accent);
   }
-
-  .aboutMe div > section {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    padding-left: 2rem;
-    gap: 1rem;
-    border-left: 5px solid var(--accent);
-    max-width: 90%;
-  }
-
   .first_screen_quick_info_section_card_btn {
     background-color: var(--action-500);
     border-bottom: 5px solid var(--action);
     padding: 0.5rem 1rem 0.5rem 1rem;
     max-width: fit-content;
   }
-
   /*
 *
 *  FOOTER SECTION
