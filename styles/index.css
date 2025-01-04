@@ -474,9 +474,10 @@ body {
     border: 3px solid var(--accent) !important;
   }
   /* active border */
-  .slide_preview.is-active {
+  /*  .slide_preview.is-active {
     border: 3px solid var(--action);
-  }
+    background-color: yellow !important;
+  } */
 
   .slide_preview:hover,
   .slide_full:hover {
@@ -560,6 +561,15 @@ body {
     font-weight: 600;
     font-style: normal;
   }
+
+  .WIP_tag {
+    display: flex;
+    align-items: center;
+    font-size: var(--fs-200);
+    color: var(--accent);
+    line-height: 10px;
+  }
+
   .FRONTEND {
     border: 1px dashed var(--accent);
   }

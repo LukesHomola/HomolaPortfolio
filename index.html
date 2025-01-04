@@ -40,6 +40,10 @@
     <link rel="icon" href="./Assets/title_icon.svg" type="image/x-icon" />
   </head>
   <body>
+    <!--     <div class="content hidden-left">Content sliding in from left</div>
+    <div class="content hidden-right">Content sliding in from right</div>
+    <div class="content hidden-fadeIn">Content fading in</div> -->
+
     <!-- 
     * 
     * NAV BAR
@@ -167,7 +171,7 @@
             <section class="first_screen_quick_info_section_card">
               <h3>KDO JSEM</h3>
               <p class="desktop_only">
-                Ahoj, jmenuji se <strong>Lukáš Homola</strong> a jsem
+                Zdravím, jmenuji se <strong>Lukáš Homola</strong> a jsem
                 <strong>technologickým nadšencem</strong>. Zajímám se primárně o
                 <strong>web aplikací, stránek</strong>
                 <br />
@@ -176,22 +180,22 @@
               </p>
               <p class="mobile_only">
                 <br />
-                Ahoj, jmenuji se <strong>Lukáš Homola</strong> a jsem
+                Zdravím, jmenuji se <strong>Lukáš Homola</strong> a jsem
                 <strong>technologickým nadšencem</strong>. Zajímám se o
-                technologie jako celek, konkrétně pak o programování. Primárně
-                se zaměřuji na vývoj web aplikací a webových stránek pomocí
-                jazyků
+                technologie, konkrétně o programování. Primárně se zaměřuji na
+                vývoj web aplikací a webových stránek pomocí jazyků
                 <strong>HTML, CSS, JavaScript, Node.js</strong>
                 <br />
                 <br />
-                Momentálně pracuji rok jako network supp, service desk & network
-                engineer, <strong>avšak hledám práci v oblasti vývoje</strong>.
-                Ve volném čase se věnuji vývoji a sebevzdělávání v rámci
-                programování, případně videohrám za účelem odreagování.
+                Momentálně pracuji v pozici network support, service desk &
+                network engineer.
+                <strong>avšak hledám práci v oblasti vývoje</strong>.
+                Volnočasově se věnuji vývoji a sebevzdělávání v oblasti vývoje a
+                programování.
                 <br />
                 <br />
-                Mám maturitní vzdělání z oboru elektrotechniky, energetiky a
-                informačních technologii.
+                Vystudoval jsem kombinovaný obor IT s elektrotechnikou,
+                zakončeno maturitním vysvědčením.
                 <br />
                 <br />
               </p>
@@ -215,8 +219,8 @@
               <br />
               <p>
                 Zaměřuji se na <strong>webové aplikace</strong>,
-                <strong>webové stránky</strong> včetně jejich backendu. Od
-                školních projektů, až po projekty vybudované ve volném čase.
+                <strong>webové stránky</strong> volnočasově se věnuji
+                programování a vývoji softwaru.
               </p>
               <p class="mobile_only">
                 Pro budování projektů využívám nebo jsem dříve využíval vícero
@@ -449,9 +453,7 @@
       <div class="my_work_container hidden-right" id="my_work_container">
         <section class="my_work_container_header">
           <h2>UKÁZKA MÉ PRÁCE</h2>
-          <p>
-            <span style="color: red">></span> Přehled mých nedávných projektů.
-          </p>
+          <p><span style="color: red">></span> Přehled nedávných projektů.</p>
           <br />
         </section>
 
@@ -468,8 +470,12 @@
                 <p>02</p>
               </li>
               <li class="splide__slide slide_preview">
-                <h4>HOMOLA - webová stránka</h4>
+                <h4>WynnPedia</h4>
                 <p>03</p>
+              </li>
+              <li class="splide__slide slide_preview">
+                <h4>PRÁDELNA - webové stránky</h4>
+                <p>04</p>
               </li>
               <!-- Add more slides as needed -->
             </ul>
@@ -600,6 +606,12 @@
                             alt=""
                           />
                         </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/ticketS_screen_6.png"
+                            alt=""
+                          />
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -607,7 +619,141 @@
                   <!--  -->
                 </div>
               </li>
-              <!--    <li class="splide__slide"></li> -->
+              <li class="splide__slide slider_full_container">
+                <div class="slider_full_container_left">
+                  <section>
+                    <section
+                      style="display: flex; gap: 0.5rem; flex-wrap: wrap"
+                    >
+                      <h2>WynnPedia</h2>
+                      <h5 class="WIP_tag">VE VÝVOJI</h5>
+                    </section>
+
+                    <p>
+                      <span style="color: red">></span> Komunitní projekt pro
+                      Minecraft server Wynncraft.com
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Zobrazení
+                      <strong>statistik, nástrojů, apod.</strong>
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Techstack
+                      <strong>React</strong>.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Volnočasový osobní
+                      projekt
+                    </p>
+                  </section>
+                  <section class="slide_full_tags_container">
+                    <div class="slide_full_tag">REACT</div>
+                    <div class="slide_full_tag">CSS</div>
+                    <div class="slide_full_tag">JSX</div>
+                    <div class="slide_full_tag">DATA SCRAPPING</div>
+                  </section>
+                  <div class="slider_full_btns">
+                    <div class="hire_me_container desktop_only">
+                      <a href="#section_hire_me"> KONTAKT</a>
+                    </div>
+                    <a
+                      href="https://github.com/LukesHomola/WynnPedia"
+                      style="color: var(--action); font-weight: 500"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+                <div class="slider_full_container_right">
+                  <div class="innerSliderWynnPedia-slider splide">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/WynnPedia/Screen_1.PNG"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/WynnPedia/Screen_2.PNG"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/WynnPedia/Screen_3.PNG"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/WynnPedia/Screen_4.PNG"
+                            alt=""
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <!--  -->
+                </div>
+              </li>
+              <!--  -->
+              <!--  -->
+              <!--  -->
+              <li class="splide__slide slider_full_container">
+                <div class="slider_full_container_left">
+                  <section>
+                    <h2>Prádelna - webové stránky</h2>
+
+                    <p>
+                      <span style="color: red">></span> Webové stránky pro
+                      rodinnou prádelnu.
+                    </p>
+                    <p>
+                      <span style="color: red">></span> Jednoduché webová
+                      stránka sloužící k prezentaci služeb.
+                    </p>
+
+                    <p><span style="color: red">></span> Zatím nezveřejněno.</p>
+                  </section>
+                  <section class="slide_full_tags_container">
+                    <div class="slide_full_tag">HTML</div>
+                    <div class="slide_full_tag">CSS</div>
+                    <div class="slide_full_tag">JavaScript</div>
+                  </section>
+                  <div class="slider_full_btns">
+                    <div class="hire_me_container desktop_only">
+                      <a href="#section_hire_me"> KONTAKT</a>
+                    </div>
+                    <p style="color: rgb(68, 66, 66); font-weight: 500">
+                      GitHub
+                    </p>
+                  </div>
+                </div>
+                <div class="slider_full_container_right">
+                  <div class="innerSliderWebPradelna-slider splide">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/Pradelna_web/Screen_1.PNG"
+                            alt=""
+                          />
+                        </li>
+                        <li class="splide__slide innerSliderTicketSystem_slide">
+                          <img
+                            src="./Assets/splide_assets/Pradelna_web/Screen_2.PNG"
+                            alt=""
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <!--  -->
+                </div>
+              </li>
             </div>
           </div>
         </div>
@@ -629,7 +775,7 @@
             ><h5>Telefon</h5>
             <br />
             <a href="#"
-              ><i class="fa-solid fa-phone"></i> +420 770 175 79</a
+              ><i class="fa-solid fa-phone"></i> +420 770 175 790</a
             ></span
           >
           <br />
@@ -677,7 +823,7 @@
         >
       </section>
       <section class="footer_contact_section">
-        <h3>CONTACT ME</h3>
+        <h3>KONTAKT</h3>
         <p><span style="color: red">></span> +420 770 175 790</p>
         <p><span style="color: red">></span> lukas-homola@seznam.cz</p>
         <a

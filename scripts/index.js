@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     perPage: 3,
     perMove: 1,
     autoplay: true,
-    interval: 5000,
-    speed: 600,
+    interval: 15000,
+    speed: 100,
     arrows: false,
     focus: "left",
     gap: 20,
@@ -49,9 +49,41 @@ document.addEventListener("DOMContentLoaded", function () {
     pagination: true,
     rewind: true,
   }).mount();
+
+  // Initialize the inner slider for WynnPedia
+  var innerSliderWynnPedia = new Splide(".innerSliderWynnPedia-slider", {
+    type: "fade",
+    drag: true,
+    snap: true,
+    perPage: 1,
+    perMove: 1,
+    autoplay: true,
+    interval: 2000,
+    speed: 600,
+    waitForTransition: true,
+    arrows: true,
+    pagination: true,
+    rewind: true,
+  }).mount();
+
+  // Initialize the inner slider for Pradelna web
+  var innerSliderWebPradelna = new Splide(".innerSliderWebPradelna-slider", {
+    type: "fade",
+    drag: true,
+    snap: true,
+    perPage: 1,
+    perMove: 1,
+    autoplay: true,
+    interval: 2000,
+    speed: 600,
+    waitForTransition: true,
+    arrows: true,
+    pagination: true,
+    rewind: true,
+  }).mount();
 });
 
-// Initialize the nested slider
+// Initialize the aniamtions
 /* SLIDE FROM LEFT */
 const observerLeft = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
